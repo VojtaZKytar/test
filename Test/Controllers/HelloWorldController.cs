@@ -41,7 +41,7 @@ namespace Test.Controllers
                 _logger.LogError($"{nameof(confValue)} is empty");
             _logger.LogInformation($"Directly read env var: {confValue}");
 
-            return "Hello world";
+            return "Hello worlds!!!";
         }
     }
 }
